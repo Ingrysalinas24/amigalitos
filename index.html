@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMIGALITOS - Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+           <a class="logo" href="index.html"><img src="img/logo.png" alt="Logo Amigalitos"></a> 
+           <ul>
+               <li><a href="index.html">Inicio</a></li>
+               <li><a href="#cuidados">Cuidados</a></li>
+               <li><a href="#razas">Razas</a></li>
+               <li><a href="#contacto">Contacto</a></li>
+           </ul>
+
+        </nav>
+        <div id="hero">
+            <img src="img/Huella.png" alt="Huella">
+            <h1>PERROS</h1>
+            <p>DANDO AMOR A LOS MAS IMPORTANTE </p>
+            <button>empezar</button>
+        </div>
+    </header>
+
+
+    <main>
+        <section id="cuidados">
+            <!-- La clase container funciona como contenedor que centra a un ancho de 1200px -->
+            <div class="container">
+                <h2>CUIDADOS</h2>
+                <P>En <b>AMIGALITOS</b> tenemos estos cuidados que le serviran a tu mascota <br>
+                    Selecciona el cuidado que mas te guste para conocer mas a fondo de el</P>
+                    <!-- Siempre que necesitemos crear columnas primero debemos contruir una fila -->
+                    <div class="fila">
+                        <!-- El 12 numero simboliza un 100% - si necesitamos 3 columnas la clase sera: 
+                            col-4 porque 4x3=12 -->
+                        <div class="col-4">
+                            <img src="img/Educación.png" alt="Imagen educación">
+                            <h3>EDUCACIÓN</h3>
+                            <p>
+                                Una buena educación <br>
+                                hará que desarrolle <br>
+                                su capacidad de socialización 
+                            </p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/Recreación.png" alt="Imagen Recreación">
+                            <h3>RECREACIÓN</h3>
+                            <p>
+                                Dar paseos frecuentes, salir a <br>
+                                correr o jugar <br>
+                                le ayudará a estar sano 
+                            </p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/Veterinaria.png" alt="Imagen Veterinaria">
+                            <h3>VISITAS AL VETERINARO</h3>
+                            <p>
+                                Ellos tambien necesitan <br>
+                                 revisiones y <br>
+                                cuidados específicos 
+                                
+                            </p>
+                        </div>
+                    </div>
+            </div> 
+        </section>
+        
+    
+        <section id="razas">
+            <div class="container">
+                <h2>RAZAS</h2>
+                <div class="fila">
+                    <div class="col-6">
+                        <img src="img/Golden.png" alt="Imagen Golden">
+                        <h3>GOLDEN</h3>
+                    </div>
+                    <div class="col-6">
+                        <img src="img/Boyero de berna.png" alt="Imagen Boyero de berna">
+                        <h3>BOYERO DE BERNA</h3>
+                    </div>
+                </div>
+                <div class="fila">
+                    <div class="col-6">
+                        <img src="img/Pastor alemán.png" alt="Imagen Pastor aleman">
+                        <h3>PASTOR ALEMÁN</h3>
+                    </div>
+                    <div class="col-6">
+                        <img src="img/Rottweiler.png" alt="Imagen Rottweiler">
+                        <h3>ROTTEWEILER</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <div class="container">
+                <h2>CONTACTO</h2>
+                <P>Comparte con nosotros tus datos de contacto y te enviaremos <br>
+                     toda la informacón sobre tus mascotas.</P>
+
+                <form action="#">
+                    <div class="fila">
+                        <input type="text" placeholder="Nombres">
+                        <input type="number" placeholder="Teléfono">
+                    </div>
+
+                    <div class="fila">
+                        <input type="email" placeholder="Email">
+                       
+                        <select name="" id="">
+                            <option value="#">Ciudad:</option>
+                            <option value="#">Bogota</option>
+                            <option value="#">Medellin</option>
+                            <option value="#">Barranquilla</option>
+                        </select>
+                    </div>
+                        <button type="submit">ENVIAR</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p> © Todos los derechos reservados <br>
+        contacto@amigalitos.com <br>
+        +57 3212444445 <br>
+        Cr 90 #93 - 20
+        </p> 
+    </footer>
+
+
+
+</body>
+</html>
+
